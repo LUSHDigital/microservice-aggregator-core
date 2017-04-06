@@ -1,0 +1,26 @@
+{
+    "name": "lushdigital/microservice-aggregator-core",
+    "description": "A set of core functionality and convenience classes for a Lumen microservice aggregator.",
+    "keywords": ["framework", "laravel", "lumen", "microservice"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dan Richards",
+            "email": "dan.richards@lush.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LushDigital\\MicroServiceAggregatorCore\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
