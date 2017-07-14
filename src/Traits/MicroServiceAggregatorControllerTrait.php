@@ -41,7 +41,7 @@ trait MicroServiceAggregatorControllerTrait
      *
      * @var string
      */
-    protected $responseMessage;
+    protected $responseMessage = '';
 
     /**
      * Handle a RequestException thrown when calling a microservice.
